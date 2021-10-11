@@ -1,17 +1,9 @@
-from enum import Enum
 from multiprocessing.dummy import Process, Queue, Manager
 from queue import Empty
 from datetime import datetime
-from typing import Tuple, List
 
 
 class Logger:
-    class Mode(Enum):
-        Full = 1
-        Info = 2
-        Debug = 3
-        Error = 4
-
     class FULL:
         pass
 
