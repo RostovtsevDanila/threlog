@@ -7,7 +7,7 @@ Simple multithreading logger.
 ## Installation
 You have to use Python3.7 or latest version.
 ```shell
-/your/project/path$ git clone https://github.com/RostovtsevDanila/threlog
+pip3 install threlog
 ```
 
 ## Usage
